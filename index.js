@@ -13,7 +13,6 @@ const ejs = require("ejs")
 
 const express = require("express")
 
-const port = 5000
 
 const dotenv = require('dotenv')
 dotenv.config()
@@ -177,6 +176,6 @@ app.post("/signup", [
     })
 })
 
-app.listen(port, () => {
+app.listen(80, () => {
     console.log(`Server is listening at http://localhost:${port}`)
 })
