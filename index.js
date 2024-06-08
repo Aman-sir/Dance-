@@ -177,5 +177,5 @@ app.post("/signup", [
 })
 
 app.listen(80, () => {
-    console.log(`Server is listening at http://localhost:${port}`)
+    console.log(`Server is listening at http://localhost`)
 })
