@@ -312,6 +312,7 @@ article {
     flex-wrap: wrap;
     row-gap: 30px;
     padding-bottom: 40px;
+    
 }
 
 .class-card {
@@ -321,6 +322,11 @@ article {
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 
 }
 
