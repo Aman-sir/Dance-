@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@500&family=Roboto+Slab:wght@300;600&family=Yeon+Sung&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+
+:root {
+    --primary-font: 'Yeon Sung', cursive;
+    --secondary-font: 'ZCOOL QingKe HuangYou', sans-serif;
+    --nav-background: red;
+    --primary-color: white;
+    --seondary-color: black;
+    --tertiary-color: whitesmoke;
+    --primary-background: black;
+    --secondary-background: orangered;
+    --tertiary-background: #f2f2fc;
+}
+
+@media only screen and (min-width: 590px) and (max-width:675px) {
+
+    .nav-ul>li,
+    .login {
+        font-size: 1rem;
+    }
+}
+
+
+@media only screen and (max-width: 590px) {
+
+    #footer{
+        position:absolute;
+        bottom: 0;
+        margin-bottom: 0;
+       }
+
+    .nav-ul {
+        position: absolute;
+        top: 60px;
+        flex-direction: column;
+        background-color: var(--secondary-background);
+        width: 100%;
+        left: -120%;
+    }
+
+    .nav-ul>li {
+        margin-block: 10px;
+    }
+
+    .open {
+        left: -50px;
+    }
+
+    #hamberger,
+    .display {
+        display: block;
+    }
+
+    #footer{
+        text-align: center;
+    }
+    input,
+    .btn-primary {
+        width: 60%;
+    }
+    .login-page{
+        height:82vh;
+    }
+    .form-div{
+        width:80%;
+        margin-block: 20px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+.login-page{
+    height: 100vh;
+}
+}
+
+@media only screen and (min-width: 760px) and (max-width:1280px) {
+.login-page{
+    height: 90vh;
+}
+   .form-div{
+    margin-top:40px;
+   }
+
+  
+}
